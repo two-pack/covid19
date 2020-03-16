@@ -13,5 +13,5 @@ for browser in BROWSERS:
 		driver.set_window_size(size[0], size[1])
 		for path in PATHS:
 			driver.get("http://localhost:8000"+path)
-			time.sleep(5)
+			time.sleep(10)
 			driver.save_screenshot('screenshots/'+browser+'_'+str(size[0])+'x'+str(size[1])+'_'+path.replace('/', '_')+'.png')
