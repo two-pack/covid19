@@ -3,7 +3,9 @@ name: update lastupdate
 on:
   push:
     branches:
-      - master
+      - test
+    paths:
+      - data/*
 
 jobs:
   deploy:
