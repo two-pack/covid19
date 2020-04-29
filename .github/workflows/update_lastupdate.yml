@@ -3,7 +3,7 @@ name: update lastupdate
 on:
   push:
     branches:
-      - test
+      - test-1
     paths:
       - data/*
 
